@@ -1,0 +1,61 @@
+
+#################datatransfer config#################
+datatransfer.service.start=true
+datatransfer.timing.cron.exp=0 */2 8-21 * * ? *
+datatransfer.sp.name=PKG_Uao_Job.up_CFMMC2MC
+
+#八点到二十一点之间，每隔2分钟执行一次。
+#统一开户系统配置表 ：t_setting
+#统一开户业务流水表 ：t_SeqProcess
+#【函数功能】
+
+       SEQ_NO>t_setting.SEQ2MCM_MAX
+       and SEQ_NO<t_setting.IN_MAX_NO
+     记录转换成会员客户的记录，
+     如果转换失败，则往T_SEQProcess插入一条记录，记录转换失败
+
+PKG_Uao_Job.up_CFMMC2MC
+判断业务流水表（T_SEQProcess）中所有流水号是否大于配置表（t_setting）临时表往会员客户转换的最大流水号，
+且小于已经接收到的最大流水号。
+
+-> PKG_CFMMC.up_CFMMC2MCM
+处理临时数据 FOR row_seqprocess IN (SELECT * FROM t_seqprocess t)
+将统一开户业务流水表中新增流水数据保存到临时变量row_seqprocess中
+
+->up_ProcessOneSeq2MCM(row_seqprocess, l_nTransactionno)
+转换临时表t_seqprocess的记录到会员客户中
+针对不同的客户类型，调用不同的方法。
+1.个人客户         up_SeqProcess2IndiClientReg(row_seqProcess, i_nTransactionno);
+将T_SEQProcess中的自然人申请的数据转换成t_indiclientapplyinfo所需的数据
+    pkg_client_util.up_insertIndiClientApplyInfo(i_tyIndiclientapplyinfo   => l_tyIndiclientapplyinfo
+	初始化一些数据：个人客户申请数据、结算银行账户申请数据、参考证件信息等
+    pkg_mcm_dao.up_InsertIndiClientApplyInfo(l_tyIndiclientapplyinfo);
+
+2.一般单位客户     up_SeqProcess2CorpClientReg(row_seqProcess, i_nTransactionno);
+将T_SEQProcess中的法人申请的数据转换成t_corpclientapplyinfo所需的数据
+3.特殊单位客户     up_SeqProcess2SpeCorpClientReg(row_seqProcess, i_nTransactionno);
+将T_SEQProcess中的法人申请的数据转换成t_corpclientapplyinfo所需的数据
+3.资管客户         up_SeqProcess2AssetClientReg(row_seqProcess, i_nTransactionno);
+将T_SEQProcess中的资管申请的数据转换成t_assetclientapplyinfo所需的数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

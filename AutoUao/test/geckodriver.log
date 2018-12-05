@@ -1,0 +1,50 @@
+1543834569535	geckodriver	INFO	geckodriver 0.21.0
+1543834569560	geckodriver	INFO	Listening on 127.0.0.1:61132
+1543834572604	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\XUREN~1.SFI\\AppData\\Local\\Temp\\rust_mozprofile.FEohZ72CvNAU"
+Unable to read VR Path Registry from C:\Users\xu.ren.SFIT\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\xu.ren.SFIT\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\xu.ren.SFIT\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\xu.ren.SFIT\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\xu.ren.SFIT\AppData\Local\openvr\openvrpaths.vrpath
+1543834576497	Marionette	INFO	Listening on port 61140
+1543834576934	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+1543834622624	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript warning: https://start.firefoxchina.cn/js/tabLib-min.js?v=20150120, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+JavaScript error: chrome://pippki/content/exceptionDialog.js, line 301: NS_ERROR_XPC_GS_RETURNED_FAILURE: Component returned failure code: 0x80570016 (NS_ERROR_XPC_GS_RETURNED_FAILURE) [nsIJSCID.getService]
+[Parent 44904, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 44904, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 73488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 73488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1543834713033	geckodriver	INFO	geckodriver 0.21.0
+1543834713041	geckodriver	INFO	Listening on 127.0.0.1:61290
+1543834716059	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\XUREN~1.SFI\\AppData\\Local\\Temp\\rust_mozprofile.k3H8gnwtQwjI"
+Unable to read VR Path Registry from C:\Users\xu.ren.SFIT\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\xu.ren.SFIT\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\xu.ren.SFIT\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\xu.ren.SFIT\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\xu.ren.SFIT\AppData\Local\openvr\openvrpaths.vrpath
+1543834718594	Marionette	INFO	Listening on port 61301
+1543834718818	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 44888, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 44888, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

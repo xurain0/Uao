@@ -1,0 +1,21 @@
+[
+  {
+    "businesstype": "1",
+    "clientregion": "2",
+    "clienttype": "1",
+    "foreignclientmode": "0",
+    "futuresid": "00006102",
+    "id_original": "411024198208300980",
+    "id_transformed": "411024198208300980",
+    "idtype": "1",
+    "nationality": "CHN",
+    "processdate": "2018-05-22",
+    "processid": "8006-A-20181203-000001",
+    "processstatus": "7",
+    "processtime": "14:51:02",
+    "processtype": "1",
+    "receiver": "N",
+    "sender": "cfmmc",
+    "seqno": "30"
+  }
+]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+	<property id="restartUao" s=". ~/shell/setenv.sh ; . /home/uapp/zzz/uao.sh"/>	
+	<property id="getServiceIp" s=". ~/shell/setenv.sh ; cat /home/uapp/shell/console/execute.list | grep uao | awk 'NR==1{print $5}'"/>
+	<property id="killUaoThread" s="source ~/.bash_profile ; /home/uapp/zzz/exceUao.sh no "/>
+	<property id="exceUao" s="source ~/.bash_profile ; /home/uapp/zzz/exceUao.sh"/>
+	<property id="find_ine_inMaxNosql" s="select t.settingvalue from t_inesetting t where t.settingkey = 'IN_MAX_NO'"/>
+	<property id="gen_ine_MaxNosql" s="select t.settingvalue from t_inesetting t where t.settingkey = 'GEN_MAX_NO'"/>
+	<property id="ine_SeqNosql" s="select max(t.seqno) from t_ineSeqProcess t  where t.sender = 'cfmmc'"/>
+	<property id="find_shfe_inMaxNosql" s="select t.settingvalue from t_setting t where t.settingkey = 'IN_MAX_NO'"/>
+	<property id="gen_shfe_MaxNosql" s="select t.settingvalue from t_setting t where t.settingkey = 'GEN_MAX_NO'"/>
+	<property id="shfe_SeqNosql" s="select max(t.seqno) from t_ineSeqProcess t  where t.sender = 'cfmmc'"/>
+
+</conf>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package_list version="1.3" from="cfmmc" to="N">
+  <package seqserial="1" seqno="30">
+    <process processid="8006-A-20181203-000001" processstatus="7" processdate="2018-05-22" processtime="14:51:02" processtype="1" businesstype="1" cfmmcreturncode="0" cfmmcreturnmsg="pass;" exreturncode="" exreturnmsg="">
+      <person_info clientregion="2" foreignclientmode="0" clienttype="1" futuresid="00006102" exchangeid="S" companyid="8006" excompanyid="8006" exclientidtype="3" exclientid="" clientname="xurain3" nationality="CHN" idtype="1" id_original="370205197405213513" id_transformed="370205197405213513" birthday="1990-06-01" gender="1" classify="01" compclientid="01149" opendate="2016-10-26" phone_countrycode="86" phone_areacode="021" phone_number="617718" addr_zipcode="200237" addr_country="CHN" addr_province="156340000" addr_city="156340100" addr_address="addr_address" order_name="order_name" order_idtype="1" order_id="110101199006018534" order_phone_countrycode="86" order_phone_areacode="021" order_phone_number="617718" order_addr_zipcode="200237" order_addr_country="CHN" order_addr_province="156340000" order_addr_city="156340100" order_addr_address="order_addr_address" fund_name="fund_name" fund_idtype="1" fund_id="110101199006018534" fund_nationality="CHN" fund_phone_countrycode="86" fund_phone_areacode="021" fund_phone_number="617718" fund_addr_zipcode="200237" fund_addr_country="CHN" fund_addr_province="156340000" fund_addr_city="156340100" fund_addr_address="fund_addr_address" bill_name="bill_name" bill_idtype="1" bill_id="110101199006018534" bill_phone_countrycode="86" bill_phone_areacode="021" bill_phone_number="617718" bill_addr_zipcode="200237" bill_addr_country="CHN" bill_addr_province="156340000" bill_addr_city="156340100" bill_addr_address="bill_addr_address" appropriatype="1">
+        <bankacc_list>
+          <bankacc accountno="8827374834" bankid="01" accountname="accountname" branchname="branchname"/>
+        </bankacc_list>
+      </person_info>
+    </process>
+  </package>
+</package_list>

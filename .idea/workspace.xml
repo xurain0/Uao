@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2129e68c-86fa-4ec1-953e-848fd80420b7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Uao$log.coverage" NAME="log Coverage Results" MODIFIED="1540370816224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/utils" />
+    <SUITE FILE_PATH="coverage/Uao$compareFilesUtils.coverage" NAME="compareFilesUtils Coverage Results" MODIFIED="1541149271652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/utils" />
+    <SUITE FILE_PATH="coverage/Uao$oracle2jsonUtils.coverage" NAME="oracle2jsonUtils Coverage Results" MODIFIED="1543827232732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/utils" />
+    <SUITE FILE_PATH="coverage/Uao$uao1.coverage" NAME="uao1 Coverage Results" MODIFIED="1543802917454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/test" />
+    <SUITE FILE_PATH="coverage/Uao$test.coverage" NAME="test Coverage Results" MODIFIED="1542269922262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/test" />
+    <SUITE FILE_PATH="coverage/Uao$conf.coverage" NAME="conf Coverage Results" MODIFIED="1543820209770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/config" />
+    <SUITE FILE_PATH="coverage/Uao$xml2jsonUtils.coverage" NAME="xml2jsonUtils Coverage Results" MODIFIED="1541067574988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/utils" />
+    <SUITE FILE_PATH="coverage/Uao$sshUtils.coverage" NAME="sshUtils Coverage Results" MODIFIED="1543817163139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/utils" />
+    <SUITE FILE_PATH="coverage/Uao$seleniumAccountRecordUtils.coverage" NAME="seleniumAccountRecordUtils Coverage Results" MODIFIED="1543905665491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/utils" />
+    <SUITE FILE_PATH="coverage/Uao$doconfiniUtils.coverage" NAME="doconfiniUtils Coverage Results" MODIFIED="1543803791448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/utils" />
+    <SUITE FILE_PATH="coverage/Uao$xmlUtils.coverage" NAME="xmlUtils Coverage Results" MODIFIED="1540369230550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/utils" />
+    <SUITE FILE_PATH="coverage/Uao$Nosetests_in_test_Uao_py.coverage" NAME="Nosetests in test_Uao.py Coverage Results" MODIFIED="1543802153361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/test" />
+    <SUITE FILE_PATH="coverage/Uao$uao.coverage" NAME="uao Coverage Results" MODIFIED="1543834816941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/test" />
+    <SUITE FILE_PATH="coverage/Uao$orclUtils.coverage" NAME="orclUtils Coverage Results" MODIFIED="1543826472500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AutoUao/utils" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1166406262">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="3" />
+          <entry key="ini" value="8" />
+          <entry key="jpg" value="2" />
+          <entry key="json" value="14" />
+          <entry key="log" value="3" />
+          <entry key="properties" value="3" />
+          <entry key="py" value="137" />
+          <entry key="readme" value="3" />
+          <entry key="uao" value="3" />
+          <entry key="xml" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="Image" value="2" />
+          <entry key="Ini" value="8" />
+          <entry key="JSON" value="14" />
+          <entry key="Log" value="2" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Properties" value="3" />
+          <entry key="Python" value="137" />
+          <entry key="XML" value="29" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="6" />
+          <entry key="ini" value="111" />
+          <entry key="py" value="5821" />
+          <entry key="readme" value="807" />
+          <entry key="uao" value="144" />
+          <entry key="xml" value="93" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ini" value="111" />
+          <entry key="PLAIN_TEXT" value="957" />
+          <entry key="Python" value="5821" />
+          <entry key="XML" value="93" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoUao/readme">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoUao/data/InePersonAccount/cfmmc_N_20181203_00000012.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="259" lean-forward="true" selection-start-line="4" selection-start-column="259" selection-end-line="4" selection-end-column="259" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoUao/uao">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AutoUao/test/uao.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="271" column="36" lean-forward="true" selection-start-line="271" selection-start-column="36" selection-end-line="271" selection-end-column="36" />
+              <folding>
+                <element signature="e#72#99#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoUao/utils/seleniumAccountRecordUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-136">
+              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#44#0" expanded="true" />
+                <marker date="1543889989613" expanded="true" signature="321:395" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../TestPro/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4114">
+              <caret line="242" selection-start-line="242" selection-end-line="242" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoUao/utils/orclUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+              <folding>
+                <element signature="e#70#86#0" expanded="true" />
+                <marker date="1543826472471" expanded="true" signature="248:257" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoUao/utils/compareFilesUtils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#72#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>backInfo</find>
+      <find>backInfoPath</find>
+      <find>getValue</find>
+      <find>start</find>
+      <find>exclientid</find>
+      <find>findinMaxNosql</find>
+      <find>444444444444444444444</find>
+      <find>put t_SeqProcess data into json file</find>
+      <find>clientregion</find>
+      <find>busine</find>
+      <find>sender</find>
+      <find>maxRseqno</find>
+      <find>foreignclientmode</find>
+      <find>type</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AutoUao/utils/uaoUtilTool/__init__.py" />
+        <option value="$PROJECT_DIR$/AutoUao/results/log/log.py" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/uaoUtilTool/log.py" />
+        <option value="$PROJECT_DIR$/AutoUao/config/conf.py" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/uaoUtilTool/doconfiniUtils.py" />
+        <option value="$PROJECT_DIR$/AutoUao/test/__init__.py" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/__init__.py" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/xmlUtils.py" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/log.py" />
+        <option value="$PROJECT_DIR$/AutoUao/results/organInput.json" />
+        <option value="$PROJECT_DIR$/AutoUao/config.properties" />
+        <option value="$PROJECT_DIR$/AutoUao/test/models/analysisData.py" />
+        <option value="$PROJECT_DIR$/AutoUao/test/models/getResult.py" />
+        <option value="$PROJECT_DIR$/AutoUao/test/models/__init__.py" />
+        <option value="$PROJECT_DIR$/AutoUao/data/IneOrganAccount/cfmmc_N_20180626_00000002.xml" />
+        <option value="$PROJECT_DIR$/AutoUao/test/models/analysisResult.py" />
+        <option value="$PROJECT_DIR$/AutoUao/config/backInfo.xml" />
+        <option value="$PROJECT_DIR$/AutoUao/data/IneOrganAccount/cfmmc_N_20181105_00000002.xml" />
+        <option value="$PROJECT_DIR$/AutoUao/test/addr.py" />
+        <option value="$PROJECT_DIR$/AutoUao/test/test.py" />
+        <option value="$PROJECT_DIR$/AutoUao/uao" />
+        <option value="$PROJECT_DIR$/AutoUao/test/test_Uao.py" />
+        <option value="$PROJECT_DIR$/AutoUao/test/uao1.py" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/doconfiniUtils.py" />
+        <option value="$PROJECT_DIR$/AutoUao/data/InePersonAccount/cfmmc_N_20180623_00000012.xml" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/sshUtils.py" />
+        <option value="$PROJECT_DIR$/AutoUao/config/config.ini" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/oracle2jsonUtils.py" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/orclUtils.py" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/xml2jsonUtils.py" />
+        <option value="$PROJECT_DIR$/AutoUao/data/IneOrganAccount/cfmmc_N_20181106_00000002.xml" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/compareFilesUtils.py" />
+        <option value="$PROJECT_DIR$/AutoUao/test/uao.py" />
+        <option value="$PROJECT_DIR$/AutoUao/utils/seleniumAccountRecordUtils.py" />
+        <option value="$PROJECT_DIR$/AutoUao/readme" />
+        <option value="$PROJECT_DIR$/AutoUao/data/InePersonAccount/cfmmc_N_20181203_00000012.xml" />
+        <option value="$PROJECT_DIR$/AutoUao/data/IneOrganAccount/cfmmc_N_20181203_00000012.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="18" />
+    <option name="y" value="57" />
+    <option name="width" value="1281" />
+    <option name="height" value="681" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Uao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uao" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoUao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uao" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoUao" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uao" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoUao" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uao" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoUao" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="IneOrganAccount" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uao" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoUao" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="InePersonAccount" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uao" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoUao" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uao" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoUao" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Uao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Uao" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoUao" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Taffy-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\TestPlatform\Uao\AutoUao" />
+      <recent name="E:\TestPlatform\Uao\AutoUao\test\models" />
+      <recent name="E:\TestPlatform\Uao\AutoUao\utils" />
+      <recent name="E:\TestPlatform\Uao\AutoUao\utils\uaoUtilTool" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\TestPlatform\Uao\AutoUao\data\InePersonAccount" />
+      <recent name="E:\TestPlatform\Uao\AutoUao\data" />
+      <recent name="E:\TestPlatform\Uao\AutoUao\config" />
+      <recent name="E:\TestPlatform\Uao\AutoUao\utils\uaoUtilTool" />
+      <recent name="E:\TestPlatform\Uao\AutoUao\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.seleniumAccountRecordUtils">
+    <configuration name="conf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Uao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutoUao/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutoUao/config/conf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oracle2jsonUtils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Uao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutoUao/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutoUao/utils/oracle2jsonUtils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="orclUtils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Uao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutoUao/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutoUao/utils/orclUtils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="seleniumAccountRecordUtils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Uao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutoUao/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutoUao/utils/seleniumAccountRecordUtils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="uao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Uao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutoUao/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutoUao/test/uao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.uao" />
+      <item itemvalue="Python.orclUtils" />
+      <item itemvalue="Python.oracle2jsonUtils" />
+      <item itemvalue="Python.conf" />
+      <item itemvalue="Python.seleniumAccountRecordUtils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.seleniumAccountRecordUtils" />
+        <item itemvalue="Python.uao" />
+        <item itemvalue="Python.oracle2jsonUtils" />
+        <item itemvalue="Python.orclUtils" />
+        <item itemvalue="Python.conf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\xu.ren.SFIT\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2129e68c-86fa-4ec1-953e-848fd80420b7" name="Default Changelist" comment="" />
+      <created>1540190273240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540190273240</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_test_Uao_py - 2018.10.24 at 16h 28m 41s.xml">
+      <configuration name="Nosetests in test_Uao.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_Uao_py - 2018.10.24 at 16h 29m 53s.xml">
+      <configuration name="Nosetests in test_Uao.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_Uao_py - 2018.11.01 at 09h 55m 18s.xml">
+      <configuration name="Nosetests in test_Uao.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_Uao_py - 2018.11.01 at 15h 09m 28s.xml">
+      <configuration name="Nosetests in test_Uao.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_Uao_py - 2018.11.01 at 15h 11m 14s.xml">
+      <configuration name="Nosetests in test_Uao.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_Uao_py - 2018.11.01 at 15h 11m 52s.xml">
+      <configuration name="Nosetests in test_Uao.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_Uao_py - 2018.11.01 at 15h 12m 17s.xml">
+      <configuration name="Nosetests in test_Uao.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_Uao_py - 2018.12.03 at 09h 55m 58s.xml">
+      <configuration name="Nosetests in test_Uao.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2934519" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.26642984" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.25577265" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.06571936" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.22202487" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22202487" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://E:/Program Files/Python37/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="228" selection-start-line="228" selection-end-line="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Program Files/Python37/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="1330" selection-start-line="1330" selection-end-line="1330" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1837128485/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/utils/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Program Files/Python37/Lib/_bootlocale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/data/IneOrganAccount/cfmmc_N_20181105_00000002.xml" />
+    <entry file="file://$PROJECT_DIR$/AutoUao/results/ineOrganInput.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/results/ineOrganOutput.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/utils/xmlUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/1381796576948.jpg" />
+    <entry file="file://$PROJECT_DIR$/AutoUao/开户流程.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/test/addr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59568">
+          <caret line="3504" column="18" selection-start-line="3504" selection-start-column="18" selection-end-line="3504" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="212" column="8" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/test/models/analysisResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="107" column="24" lean-forward="true" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/test/uao1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="134" column="31" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/test/test_Uao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/test/models/getResult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/test/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Program Files/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/data/InePersonAccount/cfmmc_N_20180623_00000012.xml" />
+    <entry file="file://$PROJECT_DIR$/AutoUao/config/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/utils/sshUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/results/log2018-12-03.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/config/backInfo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestPro/venv/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2697">
+          <caret line="303" column="26" lean-forward="true" selection-start-line="303" selection-start-column="26" selection-end-line="303" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/utils/oracle2jsonUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+          <folding>
+            <element signature="e#71#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../EasyTest-master/templates/data/IOdiff.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/Program Files/Python37/Lib/xml/dom/expatbuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="910" selection-start-line="910" selection-end-line="910" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Program Files/Python37/Lib/xml/dom/minidom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="1957" selection-start-line="1957" selection-end-line="1957" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/results/inePersonInput.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/utils/doconfiniUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/results/inePersonOutput.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/data/IneOrganAccount/cfmmc_N_20181106_00000002.xml" />
+    <entry file="file://$PROJECT_DIR$/AutoUao/data/IneOrganAccount/cfmmc_N_20181203_00000002.xml" />
+    <entry file="file://$PROJECT_DIR$/../TestPro/venv/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="394" lean-forward="true" selection-start-line="394" selection-end-line="394" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestPro/venv/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/utils/xml2jsonUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="120" column="67" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestPro/venv/Lib/site-packages/selenium/webdriver/ie/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../TestPro/venv/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/utils/orclUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <element signature="e#70#86#0" expanded="true" />
+            <marker date="1543826472471" expanded="true" signature="248:257" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/uao">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-578">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/data/InePersonAccount/cfmmc_N_20181203_00000012.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="259" lean-forward="true" selection-start-line="4" selection-start-column="259" selection-end-line="4" selection-end-column="259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/data/IneOrganAccount/cfmmc_N_20181203_00000012.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/utils/compareFilesUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#72#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/utils/seleniumAccountRecordUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#44#0" expanded="true" />
+            <marker date="1543889989613" expanded="true" signature="321:395" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoUao/test/uao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="271" column="36" lean-forward="true" selection-start-line="271" selection-start-column="36" selection-end-line="271" selection-end-column="36" />
+          <folding>
+            <element signature="e#72#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
